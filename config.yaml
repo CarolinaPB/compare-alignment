@@ -1,1 +1,11 @@
-file1: path/to/file1 # Add your own files that will be used in the pipeline
+# MAF: /lustre/nobackup/WUR/ABGC/moiti001/results/align_chicken_polished_R2/polishedR2_Gal6.maf
+
+# any file where the first column is the chr/scaffold names
+# CHR_SIZES: /lustre/nobackup/WUR/ABGC/moiti001/compare-alignment/chromosome_sizes.tsv
+# nregions: 244
+
+
+### 04/11/2020
+CHR_SIZES: /lustre/nobackup/WUR/ABGC/moiti001/results/polished_3dDNA_R2/pilon.FINAL.fasta.lengths
+MAF: /lustre/backup/WUR/ABGC/shared/ABGC_Projects/Turkey_Assembly/HiC_vs_3dna/HiC_to_DNA.maf
+OUTDIR: /lustre/nobackup/WUR/ABGC/moiti001/results/compare_alignment_HiC-3d_dna/
